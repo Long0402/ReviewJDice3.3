@@ -173,7 +173,7 @@ public class JDice {
 				LOGGER.info("Loaded input file: "+args[0]);//Ghi log file load thành công
 			} catch (IOException ioe) {
 				ioe.printStackTrace();
-				LOGGER.severe("Could not read input file: "+args[0]);//Ghi log lỗi đọc file
+				LOGGER.severe("Khong the doc file "+args[0]);//Ghi log lỗi đọc file
 			}
 		}      
 		JFrame jf = new JFrame("Dice Roller");
